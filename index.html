@@ -34,37 +34,37 @@
             <section>
                 <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
                 <p> En plein centre-ville ou en pleine nature</p>
-                <form action="">
-                    <label for="">
+                <form action="#">
+                    <label for="location">
                         <i class="fa-solid fa-location-dot"></i>
                     </label>
                     <input type="text" placeholder="Marseille, France">
-                    <button class="button-rechercher" type="submit">Rechercher</button>
+                    <button class="button-rechercher" id="location" type="submit">Rechercher</button>
                 </form>
             </section>
             <section class="filtres">
                 <h3>Filtres</h3>
                 <button type="submit">
                     <i class="fa-solid fa-money-bill-wave fa-lg"></i>
-                    <h3>Èconomique</h3>
+                    Èconomique
                 </button>
                 <button type="submit">
                     <i class="fa-solid fa-person fa-lg"></i>
-                    <h3>Familial</h3>
+                    Familial
                 </button>
                 <button type="submit">
                     <i class="fa-solid fa-heart fa-lg"></i>
-                    <h3>Romantique</h3>
+                    Romantique
                 </button>
                 <button type="submit">
                     <i class="fa-solid fa-fire fa-lg"></i>
-                    <h3>Nos Pépites</h3>
+                    Nos Pépites
                 </button>
             </section>
-            <section class="infobar">
-                <i class="fa-solid fa-info"></i>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>                
-            </section>
+            <div class="infobar">
+            <i class="fa-solid fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>               
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <h2 class="hebergements-title">Hébergements à Marseille</h2>                                       
@@ -261,9 +261,8 @@
                 </section>
          
             </div>
-            <!--
             <section>
-                <h2>Activités à Marseille</h2>  
+                <h2 class="marseille">Activités à Marseille</h2>  
                 <div class="activites-cards">
                     <div class="acard-content">
                         <a href="#">
@@ -292,7 +291,6 @@
                 </div>                               
    
             </section>
-            -->
         </main>
         <footer>
             <div class="footer-apropos">
@@ -313,6 +311,8 @@
                             <a href="#">Centre d’aide</a>
                             <a href="#">Nous contacter</a>
                     </div>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
